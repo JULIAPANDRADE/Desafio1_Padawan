@@ -1,0 +1,26 @@
+/* Selector {
+    Property: value;
+} */
+
+* {
+   background-image: (Logo, Flex Blue  1.png);
+    text-align-last: justify;
+}
+
+div {
+    float: left;
+}
+P {
+    margin: 40px;
+    padding: 0px;
+    border: 15px;
+    font-size: 16;
+    font: helvetica;
+    color: #000000;
+    vertical-align: 298px;
+}
+head {
+    background-blend-mode: normal #C0C0C0;
+    background: menu vertical #D1D1D1;
+    cursor: #FFC700;
+}

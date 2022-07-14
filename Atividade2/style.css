@@ -1,0 +1,46 @@
+/* Selector {
+   Property: value; 
+} */
+
+* {
+    text-align: right;
+}
+body {
+    background-image: (padawan.png);
+    background-size: cover;
+}
+h2, p {
+   color: #6cb7da;
+   text-align: center; 
+   border: 5px solid rgb(76, 76, 221);
+   cursor: pointer;
+}
+
+p {
+    color: pink;
+}
+
+p {
+    color: powderblue;
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+.webtext {
+    border: 5px dashed blue;
+}
+
+    .active {
+        color:aquamarine;
+    }
+
+    #div1 {
+        background: rgba(0, 0, 255, 0.2);
+    }
+
+    #div2 {
+        background: rgba(255, 0, 0, 0.2);
+    }
