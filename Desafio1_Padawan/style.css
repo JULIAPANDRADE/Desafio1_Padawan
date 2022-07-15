@@ -1,0 +1,22 @@
+/* Selector {
+    Property: value;
+} */
+
+* {
+   background-image: url (Logo, Flex Blue  1.png);
+    text-align-last: justify; 
+}
+
+div {
+    position: absolute;
+    background: #FFC700;
+    height: 1957px;
+    width: 298px;
+    top: 85px;
+}
+
+P {
+    width: 222px;
+    margin: 40px;
+    padding: 0px;
+}
