@@ -1,27 +1,84 @@
-/* Selector {
-    Property: value;
-} */
-
-* {
-   background-image: url (Logo, Flex Blue  1.png);
-    text-align-last: justify; 
-}
+/* 
+.nomeClass
+#nomeId
+nomeTag
+*/
 
 div {
     position: absolute;
-    background: #FFC700;
-    height: 1957px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 62px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.geral {
+    display: flex;
+}
+
+.menu {
     width: 298px;
-    top: 85px;
+    height: 800px;
+    background-color: #d1d1d1;
 }
 
-P {
-    width: 222px;
-    margin: 40px;
-    padding: 0px;
+.conteudo {
+    width: 100%;
+}
+#lista-menu li {
+    height: 72px;
+    border-bottom: 1px solid #666666;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
-body, h1 { 
-    text-align: right;
+#lista-menu li:hover {
+    background-color: #ffc700;
 }
 
+#lista-menu li a:link {
+    color: black;
+    margin-left: 40px;
+    font-family: helvetica, Arial;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.grade-cursos {
+    padding: 25px;
+}
+
+.banner {
+    background-color: #666666;
+    height: 450px;
+    display: flex;
+    padding: 75px;
+}
+
+.textos {
+    width: 60%;
+    color: white;
+}
+
+.imagem {
+    width: 40%;
+}
+
+.card {
+    margin-left: 25px;
+}
